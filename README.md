@@ -14,13 +14,13 @@ This proves beneficial when establishing an IPv6 environment in a Kubernetes clu
 **Login Docker Hub
 
 ```sh
-sudo docker login -u segre5458
+sudo docker login -u marokiki
 ```
 
 **Build and push your image to the location specified by `IMG`:**
 
 ```sh
-sudo make docker-build docker-push IMG=segre5458/k8s-ipv6-webhook:latest 
+sudo make docker-build docker-push IMG=marokiki/k8s-ipv6-webhook:latest 
 ```
 
 **NOTE:** This image ought to be published in the personal registry you specified. 
@@ -36,7 +36,7 @@ make install
 **Deploy the Manager to the cluster with the image specified by `IMG`:**
 
 ```sh
-make deploy IMG=segre5458/k8s-ipv6-webhook:latest
+make deploy IMG=marokiki/k8s-ipv6-webhook:latest
 ```
 
 > **NOTE**: If you encounter RBAC errors, you may need to grant yourself cluster-admin 

@@ -6,7 +6,7 @@ domain: webhook.marokiki.net
 layout:
 - go.kubebuilder.io/v4
 projectName: k8s-ipv6-webhook
-repo: github.com/segre5458/k8s-ipv6-webhook
+repo: github.com/marokiki/k8s-ipv6-webhook
 resources:
 - group: core
   kind: Service

@@ -33,7 +33,7 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	
 	corev1 "k8s.io/api/core/v1"
-	v1 "github.com/segre5458/k8s-ipv6-webhook/api/v1"
+	v1 "github.com/marokiki/k8s-ipv6-webhook/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 
